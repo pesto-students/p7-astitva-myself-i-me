@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+img{
+    margin: 1em 0 1em 0;
+}
+
+.page1{
+    height:max-content;
+    background-color:palevioletred ;
+    width: 100%;
+}
+
+.header{
+    padding-top: 1em;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(165, 42, 42);
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap:wrap;
+}
+
+.article{
+    height:60vh;
+    width: 300px;
+    background-color: darkmagenta;
+    margin: 2em;
+    padding: 1em 0 1em 1em;
+    transition: 0.3s ease-in-out;
+}
+
+.article:hover{
+    background-color: rgb(48, 169, 159);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform: scale(1.2);
+    
+}
+
+.form{
+    border: 3px dashed rgb(51, 38, 38);
+    margin: 0 auto;
+    width: fit-content;
+    background-color: rgba(95, 158, 160, 0.459);
+    padding: 1em;
+}
+
+.form:hover{
+    background-color: rgba(127, 255, 212, 0.537);
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    padding: 1em;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+button:hover{
+    background-color:aqua ;
+}
